@@ -57,7 +57,7 @@ class DeterminateTests(TestCase):
       ]
       D = Determinant(M)
       actual = D.solve_2x2()
-      expected = "11*(-2)-(-15)*(-3)"
+      expected = "11*(-2)-(-3)*(-15)"
       self.assertEqual(expected, actual)
 
    def test_solve_3x3(self):
